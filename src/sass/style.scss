@@ -1,0 +1,170 @@
+nav{
+    background-color: #161b22;
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .collapse{
+        form{
+            .input-group{
+                .form-control{
+                    height: 3.7vh;
+                    color: white;
+                    background-color: #0d1117;
+                    border: 1px solid #57606a;
+                }
+                .btn{
+                    height: 3.7vh;
+                    background-color: #0d1117;
+                    color: #57606a;
+                    border: 1px solid #57606a;
+                    font-size: 10px;
+                    &:hover{
+                        color: #57606a;
+                        border: 1px solid #57606a;
+                    }
+                }
+            }
+        }
+        ul{
+            li{
+                a{
+                    color: white;
+                    &:hover{
+                        color: #9ba8b6;
+                    }
+                }
+            }
+        }
+        .box{
+            i{
+                color: white;
+                &:hover{
+                    transition: .3s;
+                    color: #9ba8b6;
+                }
+            }
+        }
+    }
+}
+
+.main{
+    background-color: #010409;
+    .left{
+        background-color: #0d1117;
+       
+        height: 90.6vh;
+        color: white;
+        .box{
+            .btn{
+                background-color: #238636;
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+                &:hover{
+                    background-color: #2ea043;
+                }
+            }
+        }
+        input{
+            color: white;
+            background-color: #010409;
+            border: 1px solid #57606a;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .links{
+            a{
+                text-decoration: none;
+                color: white;
+                margin-bottom: 3px;
+                &:hover{
+                    border-bottom: 1px solid white;
+                    width: 50%;
+                }
+            }
+        }
+        .txt{
+            border: 1px dotted white;
+            border-radius: 5px;
+            p{
+                font-size: 10px;
+                margin: 10px;
+            }
+        }
+    }
+    .right{
+        color: white;
+        .top{
+            a{
+                color: white;
+                text-decoration: none;
+                span{
+                    border: 1px solid green;
+                    color: green;
+                    border-radius: 20px;
+                    font-weight: bold;
+                    font-size: 11px;
+                    padding: 3px 7px;
+                }
+            }
+        }
+        .bottom{
+            .singlecard{
+                height: 5vh;
+                .box{
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .box{
+            p{
+                color: rgb(169, 169, 169);
+                font-size: 12px;
+                margin: 0;
+                
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                &:hover{
+                    transition: .3s;
+                    color: rgb(0, 98, 255);
+                    border-bottom: 1px solid rgb(0, 98, 255);
+                }
+            }
+        }
+    }
+}
+
+.ldg{
+    height: 91vh;
+    background-color: #010409;
+    .loading {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+      }
+      .loading:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid #fff;
+        border-color: #fff transparent #fff transparent;
+        animation: loading 1.2s linear infinite;
+      }
+      @keyframes loading {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+}
+  
